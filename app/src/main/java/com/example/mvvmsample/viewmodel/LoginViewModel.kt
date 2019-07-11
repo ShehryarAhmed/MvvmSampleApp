@@ -19,6 +19,7 @@ class LoginViewModel : BaseObservable(){
     private val successMessage = "Login was successful"
     private val errorMessage = "Email or Password not valid"
 
+
     @Bindable
     private var toastMessage:String = ""
 
